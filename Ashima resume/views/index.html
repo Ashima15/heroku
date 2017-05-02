@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/libs/bootstrap-carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js"></script>
+    <script src="/module/app.js"></script>
+    <script src="/module/spa-routes.js"></script>
+ 
+</head>
+<body ng-app="spaapp">
+   <div id="headstart">
+   <center>
+    <h1 id="headname">A s h i m a &nbsp; &nbsp; W a l i a</h1>
+    </center>
+   </div>  
+   
+     <nav class="navbar navbar-default" style="background-color:white; border:#FBD6F8; margin-left:500px;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#" style="color:#ffb6c1;" ng-href="#/">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#" style="color:#ffb6c1" ng-href="#/projects">Projects</a></li>
+        <li><a href="#" style="color:#ffb6c1" ng-href="#/about">About</a></li>
+        <li><a href="#" style="color:#ffb6c1" ng-href="#/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+
+ <ng-view class="bodymain">
+     
+ </ng-view>
+
+  
+</body>
+</html>

@@ -1,0 +1,81 @@
+#headstart{
+    background-color: #ffe4e1;
+    width: auto;
+    height: 70px;
+}
+
+#headname{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Playball', cursive;
+    font-size:3.9vw;
+    color:#737373
+}
+
+.bodymain{
+    margin: 10px;
+    padding: 10px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 520px;
+      height: 520px;
+      margin: auto;
+  }
+
+#contactimg_phone{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#contactimg_email{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.portofoliopara{
+    color: #ffb6c1;
+    font-family: 'Courgette';
+    font-size: 20px;
+}
+
+b{
+    color: black
+}
+
+.portfolioheading{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 40px;
+}
+
+#aboutphoto{
+    margin-left: 10px;
+    padding-left: 10px;
+    float: left;
+}
+
+.aboutheading{
+    font-family: 'Bungee Inline', cursive;
+}
+
+.aboutpara{
+    font-family: 'Kaushan Script', cursive;
+}
+
+span{
+   color: #ffb6c1; 
+}
+
+.aboutparapink{
+    color: #ffb6c1; 
+    font-size: 18px;
+}
+
+.tableheading{
+    font-size: 20px;
+}
